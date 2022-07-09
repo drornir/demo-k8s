@@ -1,4 +1,3 @@
-kubectl create namespace argocd
 kubectl apply --kustomize argocd
 echo "username: admin"
 echo -n "password: "
