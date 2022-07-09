@@ -3,5 +3,6 @@ kind: Kustomization
 
 namespace: argocd
 resources:
-  - app.yaml
+  - ns.yaml
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/ha/install.yaml
+  - app.yaml
