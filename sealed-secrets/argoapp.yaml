@@ -7,6 +7,7 @@ spec:
   project: default
   source:
     chart: sealed-secrets
+    targetRevision: "1.0.10"
     repoURL: https://charts.bitnami.com/bitnami
   destination:
     server: https://kubernetes.default.svc
