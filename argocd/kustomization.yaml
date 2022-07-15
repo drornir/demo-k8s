@@ -6,4 +6,4 @@ resources:
   - ns.yaml
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
   - bootstrap.yaml
-  - ../sealed-secrets/argoapp.yaml
+  - apps/sealed-secrets.yaml
